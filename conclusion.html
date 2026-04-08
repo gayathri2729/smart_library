@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Conclusion</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .highlight {
+            background: #f1f5ff;
+            padding: 15px;
+            border-left: 5px solid #667eea;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<script>
+if (!localStorage.getItem("user")) window.location="index.html";
+</script>
+
+<div class="navbar">
+    <h2>📚 Smart Library</h2>
+    <div>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="books.html">Books</a>
+        <a href="requests.html">Requests</a>
+        <a href="admin.html">Admin</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="header">
+        <h1>📄 Project Conclusion</h1>
+        <p>Smart Library Management System</p>
+    </div>
+
+    <div class="section">
+        <p>
+        The Library Management Project successfully optimized the process of borrowing and managing books by implementing structured workflows, role-based access control, and automated approvals.
+        </p>
+
+        <div class="highlight">
+            Students can submit borrow requests seamlessly, while administrators can review, validate, and process requests efficiently through controlled access and defined responsibilities.
+        </div>
+
+        <p>
+        The system enhances transparency through request tracking, history management, and organized record handling, ensuring smooth workflow execution.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>🚀 Key Achievements</h3>
+        <ul>
+            <li>✔ Structured workflow system</li>
+            <li>✔ Role-based access control</li>
+            <li>✔ Request tracking and history</li>
+            <li>✔ Admin approval process</li>
+            <li>✔ User-friendly interface</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>🔮 Future Scope</h3>
+        <ul>
+            <li>📌 Database integration</li>
+            <li>📌 Secure login system</li>
+            <li>📌 Email notifications</li>
+            <li>📌 Digital library features</li>
+            <li>📌 Asset tracking system</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <p>
+        Overall, the solution improves operational efficiency, strengthens accountability, and provides a scalable framework that can be extended to support additional academic services such as digital resources, reservation systems, or asset tracking in the future.
+        </p>
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
