@@ -1,21 +1,3 @@
-// ===== USERS LOGIN =====
-function login() {
-    let email = document.getElementById("email").value;
-    let password = document.getElementById("password").value;
-
-    if (email && password) {
-        localStorage.setItem("user", email);
-        window.location.href = "dashboard.html";
-    } else {
-        alert("Enter all fields");
-    }
-}
-
-// ===== REGISTER =====
-function register() {
-    alert("Registered successfully!");
-    window.location.href = "index.html";
-}
 
 // ===== BOOK REQUEST =====
 function requestBook(bookName) {
